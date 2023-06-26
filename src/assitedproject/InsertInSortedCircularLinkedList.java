@@ -2,16 +2,6 @@ package assitedproject;
 
 import java.util.Scanner;
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}
-
 class CircularLinkedList {
     Node head;
 
